@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    image: vue-webpack-loader:0.1.0
+    restart: always
+    ports:
+      - "80:80"
